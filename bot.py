@@ -12,7 +12,7 @@ load_dotenv()
 BLOCKVISION_API_KEY = os.getenv("BLOCKVISION_API_KEY", "2tqlLvpyrTlOilBAcWyYUU9Ezw0")  # Ganti jika ada API key baru
 RPC_URL = "https://monad-testnet.g.alchemy.com/v2/D6h3ngNJ1IATsMMW0hMbzlxtpIsFKaTZ"
 PRIVATE_KEY = os.getenv("PRIVATE_KEY")
-YOUR_ADDRESS = "0x902651ecbe3fd8f98258d1833189b98ef39f5ae4"
+YOUR_ADDRESS = "YOURADDRESS"
 
 # Opsi untuk mengaktifkan/menonaktifkan debug
 DEBUG_ENABLED = True  # Ubah ke False untuk nonaktifkan debug
