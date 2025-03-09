@@ -9,7 +9,7 @@ from urllib.parse import urlparse, parse_qs
 load_dotenv()
 
 # Config
-BLOCKVISION_API_KEY = os.getenv("BLOCKVISION_API_KEY", "2tqlLvpyrTlOilBAcWyYUU9Ezw0")  # Ganti jika ada API key baru
+BLOCKVISION_API_KEY = os.getenv("BLOCKVISION_API_KEY", "YOUR_API_KEY")  # Ganti jika ada API key baru
 RPC_URL = "https://monad-testnet.g.alchemy.com/v2/D6h3ngNJ1IATsMMW0hMbzlxtpIsFKaTZ"
 PRIVATE_KEY = os.getenv("PRIVATE_KEY")
 YOUR_ADDRESS = "YOURADDRESS"
